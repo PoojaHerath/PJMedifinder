@@ -1,0 +1,27 @@
+.pharmHome{
+    height: calc(100vh - 50px);
+    background-color: white;
+    margin-top: 50px;
+}
+
+.title{
+    margin-left: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.dashboard{
+    margin-top: -35px;;
+    margin-left: 50px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.dName{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}

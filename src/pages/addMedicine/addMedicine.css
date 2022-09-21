@@ -1,0 +1,65 @@
+.container{
+    width: 800px;
+    height: 650px;
+    background-color: #befaa2;
+    margin-left: 340px;
+}
+.addMedicine{
+    height: calc(100vh - 50px);
+    justify-content: flex-start;
+    font-family: sans-serif;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.Title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+.addForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addForm>label{
+    margin: 10px 0;
+    margin-top: 30px;
+}
+
+.addForm>label1{
+    margin: 10px 0;
+    margin-left: 350px;
+    margin-top: -73px;
+}
+
+.addInput{
+    padding: 10px;
+    background-color: white;
+    border-color: antiquewhite;
+    width: 250px;
+    height: 20px;
+}
+.addInput1{
+    padding: 10px;
+    background-color: white;
+    border-color: antiquewhite;
+    width: 250px;
+    height: 20px;
+    margin-left: 350px;
+}
+.saveButton{
+    margin-top: 50px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 240px;
+    background-color: #039617;
+    width: 100px;
+    height: 35px;
+}

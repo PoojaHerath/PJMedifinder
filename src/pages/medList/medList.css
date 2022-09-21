@@ -1,0 +1,13 @@
+.medList{
+    height: calc(100vh - 50px);
+    background-color: white;
+    margin-top: 60px;
+}
+
+.title1{
+    margin-left: 650px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}

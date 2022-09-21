@@ -1,0 +1,64 @@
+.Container{
+    margin-left: 420px;
+}
+
+.login{
+    height: calc(100vh - 50px);
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex: 500px;
+    justify-content: flex-start;
+    background-color: white;
+    font-family: sans-serif;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.LoginTitle{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    margin: 10px 0;
+    margin-top: 30px;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border-color: antiquewhite;
+    width: 450px;
+    height: 20px;
+}
+.signinButton{
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 130px;
+    background-color: #039617;
+    width: 100px;
+    height: 35px;
+}
+.signupButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #039617;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 130px;
+    padding: 10px;
+    width: 100px;
+    height: 35px;
+}

@@ -1,11 +1,11 @@
 import * as React from 'react';
-import "./topbar.css";
+import "./pharmHome.css";
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
-export default function Topbar() {
+export default function PharmHome() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -15,27 +15,13 @@ export default function Topbar() {
     setAnchorEl(null);
   };
 
-  return (
-    <div className="top">
-        <div>
-            <img
-            className="logo"
-            src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/fd/fd/de/fdfdde74-c393-d6ea-bbf4-9d5b52673f34/AppIcon-1x_U007emarketing-0-6-0-85-220.png/230x0w.webp" alt="" />
-        </div>
-        <div> 
-            <text className="name"> Medifinder</text>
-            <hr
-        style={{
-          background: 'lime',
-          color: 'lime',
-          borderColor: 'lime',
-          height: '3px',
-          width: '1410px'
-        }}
-      />
-        </div>
-        
-        <div className="topIcon">
+    return (
+      <div className="pharmHome">
+           <div>
+           <text className="title">Top 10 Selling Products</text>
+           </div>
+
+    <div className="dashboard"> 
       <Button
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
@@ -43,7 +29,7 @@ export default function Topbar() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-        <text className="acc">Account</text>
+         <text className="dName">Options</text>
       </Button>
       <Menu
         id="basic-menu"
@@ -55,15 +41,19 @@ export default function Topbar() {
         }}
       >
         <MenuItem onClick={handleClose}>
-          <Link className="link" to="/CusLogin">Customer</Link>
-          </MenuItem>
-        <MenuItem onClick={handleClose}>
-        <Link className="link" to="/PharmLogin">Pharmacy</Link>
+        <Link className="link" to="/AddMedicine">Add Medicines</Link>
         </MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>
+        <Link className="link" to="/MedList">View Medicine List</Link>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+        <Link className="link" to="/PharmHome">Top 10 Selling Products</Link>
+        </MenuItem>
       </Menu>
     </div>
       </div>
-      
-  );
-};
+    );
+  };
+
+  
+
