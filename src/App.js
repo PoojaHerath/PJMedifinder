@@ -7,6 +7,10 @@ import PharmHome from "./pages/pharmHome/PharmHome";
 import CusVerification from "./pages/cusEmailVerification/CusVerification";
 import AddMedicine from "./pages/addMedicine/AddMedicine";
 import MedList from "./pages/medList/MedList";
+import CusSuggestion from "./pages/cusSuggestion/CusSuggestion";
+import DrugDetails from "./pages/drugDetails/DrugDetails";
+import CusAcc from "./pages/cusAccount/CusAcc";
+import PharmAcc from "./pages/pharmAccount/PharmAcc";
 
 //import Location from "./pages/location/location";
 import Home from "./pages/home/Home";
@@ -34,6 +38,10 @@ function App() {
       <Route path="/CusVerification" element={<CusVerification />} />
       <Route path="/AddMedicine" element={<AddMedicine />} />
       <Route path="/MedList" element={<MedList />} />
+      <Route path="/CusSuggestion" element={<CusSuggestion />} />
+      <Route path="/DrugDetails" element={<DrugDetails />} />
+      <Route path="/CusAcc" element={<CusAcc />} />
+      <Route path="/PharmAcc" element={<PharmAcc />} />
     </Routes>
     <Routes>
     </Routes>

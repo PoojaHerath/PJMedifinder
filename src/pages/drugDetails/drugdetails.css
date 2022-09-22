@@ -2,9 +2,10 @@
     width: 800px;
     height: 650px;
     background-color: #befaa2;
-    margin-left: 60px;
+    margin-left: 350px;
 }
-.register{
+
+.drugDetails{
     height: calc(100vh - 50px);
     flex-wrap: wrap;
     flex-direction: row;
@@ -16,50 +17,39 @@
     margin-top: 80px;
     margin-left: 90px;
 }
-.RegTitle{
+.detailTitle{
     font-size: 20px;
     font-weight: bold;
-    margin-left: 190px;
+    margin-left: 240px;
 }
 
-.regForm{
+.detailForm{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    margin-left: 150px;
 }
-.regForm>label{
+
+.detailForm>label{
     margin: 10px 0;
     margin-top: 30px;
 }
 
-.regForm>label1{
-    margin: 10px 0;
-    margin-left: 350px;
-    margin-top: -73px;
-}
-.regInput{
+.detailInput{
     padding: 10px;
     background-color: white;
     border-color: antiquewhite;
-    width: 250px;
+    width: 280px;
     height: 20px;
 }
-.regInput1{
-    padding: 10px;
-    background-color: white;
-    border-color: antiquewhite;
-    width: 250px;
-    height: 20px;
-    margin-left: 350px;
-}
-.signupButton1{
+.saveButton1{
     margin-top: 50px;
     cursor: pointer;
     color: white;
     border: none;
     border-radius: 10px;
     padding: 10px;
-    margin-left: 240px;
+    margin-left: 100px;
     background-color: #039617;
     width: 100px;
     height: 35px;

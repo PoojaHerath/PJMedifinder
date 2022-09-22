@@ -1,0 +1,15 @@
+.search{
+    -webkit-appearance: none;
+    border: solid;
+    border-color: #3C403D;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    outline: none;
+    padding: 5px;
+    width: 600px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-left: 210px;
+    margin-top: 20px;
+}

@@ -10,7 +10,7 @@ export default function cus_Verification() {
            </div>
             <div className="button">
            <button className="verifyButton">
-           <Link className="link" to="/PharmHome">Verify</Link>
+           <Link className="link" to="/CusSuggestion">Verify</Link>
            </button>
            </div>
           </div>

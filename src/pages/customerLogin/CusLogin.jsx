@@ -13,7 +13,9 @@ export default function CusLogin() {
             <label>Password</label>
             <input type="password" className="loginInput" placeholder="Enter your password..."/>
 
-            <button className="signinButton1">Sign in</button>
+            <button className="signinButton1">
+            <Link className="link" to="/CusSuggestion">Sign in</Link>
+            </button>
         </form>
         <button className="signupButton2">
         <Link className="link" to="/CusReg">Sign up</Link>
