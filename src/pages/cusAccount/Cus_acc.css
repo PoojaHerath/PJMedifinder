@@ -3,7 +3,6 @@
     height: 750px;
     margin-left: 60px;
     position:fixed;
-
 }
 .myAccount{
     height: calc(100vh - 50px);
@@ -24,21 +23,17 @@
     display: flex;
     flex-direction: column;
 }
-
 .accForm>label{
     margin: 10px ;
     margin-top: 30px;
     font-weight: bold;
 }
-
 .accForm>label1{
     margin: 10px ;
     margin-left: 350px;
     margin-top: -69px;
     font-weight: bold;
-    
 }
-
 .accInput{
     padding: 10px;
     background-color: white;
@@ -77,8 +72,6 @@
     opacity: 40%;
     background-color: #0000 35%;
     position:sticky;
-   
-   
 }
 .Account{
     width: 70px;
@@ -86,7 +79,6 @@
     margin-bottom: -245px;
     margin-right: 500px;
     margin-left: -70px;
-    
 }
 .logo span {
     color: rgb(0, 0, 0);
